@@ -71,8 +71,7 @@ fun QuizListScreen(viewModel: QuizViewModel, navController: NavHostController) {
                                 model = "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
                                 contentDescription = "User Avatar",
                                 modifier = Modifier
-                                    .size(48.dp)
-                                    .padding(start = 8.dp),
+                                    .size(48.dp),
                                 contentScale = ContentScale.Crop
                             )
                         }
